@@ -1,11 +1,11 @@
 
 Pod::Spec.new do |s|
   s.name             = "ZBYAML"
-  s.version          = '0.0.2'
-  s.summary          = "YAML"
-  s.homepage         = "https://gitee.com/k373379320/ZBYAML"
+  s.version          = '0.0.3'
+  s.summary          = "ZBYAML"
+  s.homepage         = "http://www.jianshu.com/u/c2bf90d2bdf1"
   s.license          = 'MIT'
-  s.author           = { "ke.xu" => "ke.xu@husor.com" }
+  s.author           = { "肖志斌" => "373379320@qq.com" }
   s.source           = { :git => "https://github.com/k373379320/ZBYAML.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
