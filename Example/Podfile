@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZBYAML_Tests' do
+  pod 'ZBYAML', :path => '../'
+  
+  
+end
