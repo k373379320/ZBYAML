@@ -1,6 +1,0 @@
-framework module ZBYAML {
-  umbrella header "ZBYAML-umbrella.h"
-
-  export *
-  module * { export * }
-}

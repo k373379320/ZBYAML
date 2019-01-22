@@ -1,19 +1,17 @@
-
 Pod::Spec.new do |s|
-  s.name             = "ZBYAML"
-  s.version          = '0.0.3'
-  s.summary          = "ZBYAML"
-  s.homepage         = "http://www.jianshu.com/u/c2bf90d2bdf1"
-  s.license          = 'MIT'
-  s.author           = { "肖志斌" => "373379320@qq.com" }
+  s.name = "ZBYAML"
+  s.version = "1.0.0"
+  s.summary = "ZBYAML"
+  s.license = "MIT"
+  s.authors = {"肖志斌"=>"373379320@qq.com"}
+  s.homepage = "http://www.jianshu.com/u/c2bf90d2bdf1"
+  s.requires_arc = false
   s.source           = { :git => "https://github.com/k373379320/ZBYAML.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = false
-
-  s.source_files = 'ZBYAML/**/*.{h,m,c}'
-
-  s.public_header_files = 'ZBYAML/YAMLSerialization.h'
-
-  s.module_map = 'ZBYAML/module.modulemap'
+  s.ios.deployment_target    = '8.0'
+  s.ios.vendored_framework   = 'ios/ZBYAML.framework'
+  s.ios.preserve_paths       = 'ios/ZBYAML.framework'
+  s.ios.public_header_files  = 'ios/ZBYAML.framework/Versions/A/Headers/*.h'
+  s.ios.resource             = 'ios/ZBYAML.framework/Versions/A/{.*,*}'
+  s.ios.source_files         = 'ios/ZBYAML.framework/Versions/A/Headers/*.h'
 end
