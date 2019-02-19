@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ZBYAML"
-  s.version = "1.0.0"
+  s.version = "1.0.2"
   s.summary = "ZBYAML"
   s.license = "MIT"
   s.authors = {"肖志斌"=>"373379320@qq.com"}
