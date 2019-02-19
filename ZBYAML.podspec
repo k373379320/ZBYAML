@@ -10,8 +10,4 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'ios/ZBYAML.framework'
-  s.ios.preserve_paths       = 'ios/ZBYAML.framework'
-  s.ios.public_header_files  = 'ios/ZBYAML.framework/Versions/A/Headers/*.h'
-  s.ios.resource             = 'ios/ZBYAML.framework/Versions/A/{.*,*}'
-  s.ios.source_files         = 'ios/ZBYAML.framework/Versions/A/Headers/*.h'
 end
